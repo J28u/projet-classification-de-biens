@@ -42,12 +42,12 @@ La méthodologie suivie pour tester la faisabilité d’un moteur de classificat
 1. Prétraitement des données :
 * analyse exploratoire pour comprendre les spécificités du jeu de données
 * nettoyage pour améliorer la qualité des données et ainsi faciliter le travail des algorithmes utilisés à l’étape suivante.
-	- texte : tokenisation, stopwords, lemmatization, racinisation ...
+	- textes : tokenisation, stopwords, lemmatization, racinisation ...
 	- images : passage au gris, re-dimension, amélioration contraste ...
 
 2. Extraction des features :
 * transformation des données textes ou images en nombres qui fassent sens afin que les algorithmes de machine learning puissent les exploiter.
-  - texte : bag-of-words (tf, tf-idf), word-embeddings (word2vec, Bert, USE)
+  - textes : bag-of-words (tf, tf-idf), word-embeddings (word2vec, Bert, USE)
   - images : bag-of-features (SIFT), transfer-learning sur CNN (VGG16, RESNet50)
 
 3. Réduction de dimensions :
