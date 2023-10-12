@@ -1,5 +1,5 @@
 # OC/DS Projet 6 : Classifiez automatiquement des biens de consommation
-Formation OpenClassrooms - Parcours data scientist - Projet Professionnalisant (Février - Avril 2023)
+Formation OpenClassrooms - Parcours data scientist - Projet Professionnalisant (Mars - Mai 2023)
 
 ## Secteur : 
 Commerce et distribution
