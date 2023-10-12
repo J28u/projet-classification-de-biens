@@ -15,7 +15,7 @@ Commerce et distribution
     - Wordcloud
       
 ## Mots-clés : 
-NLP, computer vision, classification supervisée, t-SNE, CNN, transfer learning, data augmentation, Deep Learning
+NLP, computer vision, classification supervisée, CNN, transfer learning, data augmentation, Deep Learning
 
 ## Le contexte : 
 Le client cherche à lancer une market place e-commerce et souhaite automatiser la catégorisation des articles vendus.
