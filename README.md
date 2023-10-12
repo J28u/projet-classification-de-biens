@@ -7,15 +7,18 @@ Commerce et distribution
 ## Technologies utilisées : 
   * Jupyter Notebook
   * Python
-    - Scikit-learn : ACP, SVD, t-SNE
+    - Scikit-learn : PCA, SVD, t-SNE
     - HyperOpt
-    - Keras, Tensorflow
+    - Tensorflow
     - Nltk
     - OpenCV, PIL
     - Wordcloud
+	- Gensim
+	- Transformers
+	- Torch
       
 ## Mots-clés : 
-NLP, computer vision, classification supervisée, CNN, transfer learning, data augmentation, Deep Learning
+NLP, Computer Vision, Classification Supervisée, CNN, Transfer Learning, Data Augmentation, Deep Learning
 
 ## Le contexte : 
 Le client cherche à lancer une market place e-commerce et souhaite automatiser la catégorisation des articles vendus.
@@ -30,9 +33,10 @@ Le client cherche à lancer une market place e-commerce et souhaite automatiser 
 * notebook_faisabilite_image.ipynb : notebook contenant le prétraitement et la feature extraction des données images ainsi que l’étude de faisabilité
 * notebook_classification_images.ipynb : notebook de classification supervisée des images
 * notebook_api.ipynb : notebook de test de l’API
+* toolbox.py : fonctions utilisées dans les notebooks
 * presentation.pdf : support de présentation pour la soutenance détaillant le travail réalisé
 
-## Algorithme retenu : 
+## Algorithmes retenus : 
 * USE pour classification de données textes
 * ResNet50 pour classification de données images 
 
@@ -47,7 +51,7 @@ La méthodologie suivie pour tester la faisabilité d’un moteur de classificat
 
 2. Extraction des features :
 * transformation des données textes ou images en nombres qui fassent sens afin que les algorithmes de machine learning puissent les exploiter.
-  - textes : bag-of-words (tf, tf-idf), word-embeddings (word2vec, Bert, USE)
+  - textes : bag-of-words (tf, tf-idf), word-embeddings (Word2Vec, Bert, USE)
   - images : bag-of-features (SIFT), transfer-learning sur CNN (VGG16, RESNet50)
 
 3. Réduction de dimensions :
@@ -85,7 +89,7 @@ But = Réduire le nombre de variables utilisées pour représenter les données,
 * Mettre en oeuvre des techniques de réduction de dimension
 * Utiliser des techniques d’augmentation des données
 * Définir la stratégie d’élaboration d’un modèle d'apprentissage profond
-*  Évaluer la performance des modèles d’apprentissage profond selon différents critères
+* Évaluer la performance des modèles d’apprentissage profond selon différents critères
 * Définir la stratégie de collecte de données en recensant les API disponibles
 
 ## Data source : 
